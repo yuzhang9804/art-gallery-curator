@@ -1,0 +1,158 @@
+import os
+import json
+
+# 定义评估数据
+evaluations = {
+    "art-nouveau-floral-reverie": {
+        "style_score": 9.8,
+        "aesthetic_score": 9.5,
+        "passed": True,
+        "comment": "Art Nouveau 是 Jugendstil 在法国的称谓，两者本质上是同一运动的不同地域表达。此作完美呈现了新艺术运动的核心特征：流畅的鞭打线条、装饰性的花卉图案、女性形象与植物的融合、宝石般的色彩。风格契合度极高。在通用美学方面，构图优雅，色彩和谐，细节精致。然而，作为极其挑剔的鉴赏家，我必须指出：画面略显甜美，缺乏克里姆特作品中那种神秘、颓废的精神深度。整体氛围过于'装饰性'而缺乏'象征性'。",
+        "consecutive": 1
+    },
+    "bauhaus-geometric-harmony": {
+        "style_score": 1.0,
+        "aesthetic_score": 8.5,
+        "passed": False,
+        "comment": "包豪斯与 Jugendstil 在美学上完全对立。Jugendstil 追求装饰性、有机曲线、自然主义，而包豪斯主张功能主义、几何简约、去装饰化。此作是典型的包豪斯风格——纯粹的几何形态、三原色、理性构图——与 Jugendstil 毫无共通之处。在通用美学方面，作品展现出色的几何平衡与色彩和谐，但缺乏情感深度与视觉惊喜。",
+        "consecutive": 0
+    },
+    "byzantine-sacred-mosaic": {
+        "style_score": 2.5,
+        "aesthetic_score": 9.2,
+        "passed": False,
+        "comment": "拜占庭艺术与 Jugendstil 虽然都强调装饰性，但美学语言完全不同。拜占庭强调宗教象征、金色背景、正面性、平面性，而 Jugendstil 强调世俗美、自然有机形态、流动曲线。此作是典型的拜占庭镶嵌画风格，与 Jugendstil 的核心特征不符。在通用美学方面，作品庄严华丽，色彩丰富，技术精湛，但略显程式化，缺乏个性化的艺术表达。",
+        "consecutive": 0
+    },
+    "constructivism-revolutionary-architecture": {
+        "style_score": 0.5,
+        "aesthetic_score": 8.0,
+        "passed": False,
+        "comment": "构成主义与 Jugendstil 在意识形态和美学上完全对立。Jugendstil 是资产阶级的装饰艺术，追求精致与美感；构成主义是革命艺术，追求功能与社会改造。此作是典型的构成主义风格——几何抽象、动态构图、工业美学——与 Jugendstil 的有机曲线和装饰性毫无关联。在通用美学方面，作品动态有力，但缺乏视觉层次与情感共鸣。",
+        "consecutive": 0
+    },
+    "cyberpunk-neon-rain": {
+        "style_score": 0.0,
+        "aesthetic_score": 8.8,
+        "passed": False,
+        "comment": "赛博朋克与 Jugendstil 在时代、主题、美学上完全无关。Jugendstil 是19世纪末的自然主义装饰艺术，赛博朋克是20世纪末的科技反乌托邦美学。此作是典型的赛博朋克风格——霓虹灯、雨夜都市、科技元素——与 Jugendstil 毫无共通之处。在通用美学方面，作品氛围营造出色，色彩对比强烈，但构图略显常规，缺乏独特的视觉语言。",
+        "consecutive": 0
+    },
+    "digital-art-quantum-garden": {
+        "style_score": 3.0,
+        "aesthetic_score": 8.5,
+        "passed": False,
+        "comment": "数字艺术的科技美学与 Jugendstil 的有机自然主义存在本质差异。虽然此作包含'花园'主题，但呈现方式是数字化的、抽象的、科技感的，而非 Jugendstil 的装饰性植物图案与流动曲线。在通用美学方面，作品色彩丰富，视觉效果震撼，但缺乏情感深度与叙事性。",
+        "consecutive": 0
+    },
+    "futurism-velocity-symphony": {
+        "style_score": 0.5,
+        "aesthetic_score": 8.3,
+        "passed": False,
+        "comment": "未来主义与 Jugendstil 在美学理念上完全对立。Jugendstil 追求静态的装饰美与自然有机形态，未来主义追求动态、速度、机械力量。此作是典型的未来主义风格——运动的分解、动态线条、工业美学——与 Jugendstil 的柔美曲线和装饰性毫无关联。在通用美学方面，作品动感强烈，但构图略显混乱，缺乏视觉焦点。",
+        "consecutive": 0
+    },
+    "german-expressionism-urban-anxiety": {
+        "style_score": 2.0,
+        "aesthetic_score": 9.0,
+        "passed": False,
+        "comment": "德国表现主义与 Jugendstil 虽然都源自德语国家，但美学完全不同。Jugendstil 追求优雅、装饰、美感，表现主义追求扭曲、焦虑、批判。此作是典型的表现主义风格——扭曲的形态、尖锐的线条、心理张力——与 Jugendstil 的流畅曲线和装饰性完全相反。在通用美学方面，作品情感表达强烈，氛围营造出色，但略显程式化，未能超越经典表现主义的视觉语言。",
+        "consecutive": 0
+    },
+    "land-art-spiral-desert": {
+        "style_score": 0.0,
+        "aesthetic_score": 9.3,
+        "passed": False,
+        "comment": "大地艺术与 Jugendstil 在媒介、理念、美学上完全不同。Jugendstil 是平面装饰艺术，大地艺术是环境介入艺术。此作是典型的大地艺术风格——自然景观中的几何介入——与 Jugendstil 的装饰性图案和流动曲线毫无关联。在通用美学方面，作品构图壮观，色彩和谐，但略显'摄影化'，缺乏艺术性的暧昧与深度。",
+        "consecutive": 0
+    },
+    "outsider-art-inner-cosmos": {
+        "style_score": 0.5,
+        "aesthetic_score": 8.0,
+        "passed": False,
+        "comment": "局外人艺术与 Jugendstil 在创作主体、美学训练、表现方式上完全不同。Jugendstil 是专业艺术家的精致装饰艺术，局外人艺术是非专业创作者的原始表达。此作是典型的局外人艺术风格——强迫性图案、个人化符号、原始性——与 Jugendstil 的优雅装饰性毫无关联。在通用美学方面，作品具有独特性，但缺乏视觉和谐与构图控制。",
+        "consecutive": 0
+    },
+    "pointillism-sunday-by-the-river": {
+        "style_score": 1.5,
+        "aesthetic_score": 9.0,
+        "passed": False,
+        "comment": "点彩派与 Jugendstil 虽然都属于19世纪末艺术运动，但技法和美学完全不同。点彩派追求科学的色彩分割与光学混合，Jugendstil 追求流畅的线条与装饰性图案。此作是典型的点彩派风格——密集的色点、光学混合——与 Jugendstil 的线条美学和装饰性毫无关联。在通用美学方面，作品技术精湛，色彩和谐，但略显'复制性'，缺乏个性化的艺术语言。",
+        "consecutive": 0
+    },
+    "pop-art-consumer-paradise": {
+        "style_score": 0.0,
+        "aesthetic_score": 8.5,
+        "passed": False,
+        "comment": "波普艺术与 Jugendstil 在时代、主题、美学上完全对立。Jugendstil 是精英主义的装饰艺术，波普艺术是大众文化的挪用与批判。此作是典型的波普艺术风格——鲜艳色彩、消费符号、平面化——与 Jugendstil 的有机曲线和精致装饰毫无关联。在通用美学方面，作品色彩强烈，视觉冲击力强，但缺乏深度与暧昧性。",
+        "consecutive": 0
+    },
+    "rococo-garden-of-enchantment": {
+        "style_score": 4.5,
+        "aesthetic_score": 9.3,
+        "passed": False,
+        "comment": "洛可可与 Jugendstil 都追求装饰性与优雅，但时代和美学语言不同。洛可可是18世纪的宫廷艺术，强调C形和S形曲线、粉彩色调、轻盈感；Jugendstil 是19世纪末的现代装饰艺术，强调鞭打线条、宝石色调、平面性。此作是典型的洛可可风格，与 Jugendstil 有某些共通之处（曲线、装饰性），但整体美学仍有显著差异。在通用美学方面，作品精致华丽，色彩柔和，但略显甜腻，缺乏现代性与精神深度。",
+        "consecutive": 0
+    },
+    "situationist-international-urban-drift": {
+        "style_score": 0.0,
+        "aesthetic_score": 7.5,
+        "passed": False,
+        "comment": "情境主义国际与 Jugendstil 在意识形态和美学上完全对立。Jugendstil 是资产阶级的装饰艺术，情境主义是激进的政治艺术。此作是典型的情境主义风格——拼贴、异轨、批判——与 Jugendstil 的优雅装饰性毫无关联。在通用美学方面，作品概念性强，但视觉表现力弱，缺乏美学吸引力。",
+        "consecutive": 0
+    },
+    "steampunk-clockwork-observatory": {
+        "style_score": 3.0,
+        "aesthetic_score": 9.0,
+        "passed": False,
+        "comment": "蒸汽朋克与 Jugendstil 虽然都强调装饰性与工艺美，但时代设定和美学语言不同。蒸汽朋克是维多利亚时代的工业美学，强调机械、齿轮、金属；Jugendstil 是新艺术运动的有机美学，强调植物、曲线、自然。此作是典型的蒸汽朋克风格，与 Jugendstil 有某些共通之处（装饰性、工艺感），但整体美学仍有显著差异。在通用美学方面，作品细节丰富，氛围营造出色，但略显'插画化'，缺乏艺术性的深度。",
+        "consecutive": 0
+    },
+    "suprematism-cosmic-ascension": {
+        "style_score": 0.0,
+        "aesthetic_score": 8.0,
+        "passed": False,
+        "comment": "至上主义与 Jugendstil 在美学上完全对立。Jugendstil 追求装饰性、有机形态、自然主义，至上主义追求纯粹几何、抽象、精神性。此作是典型的至上主义风格——几何抽象、漂浮构图——与 Jugendstil 的装饰性曲线毫无关联。在通用美学方面，作品构图简洁，色彩纯粹，但缺乏视觉张力与情感共鸣。",
+        "consecutive": 0
+    },
+    "surrealism-dreamscape-labyrinth": {
+        "style_score": 2.0,
+        "aesthetic_score": 8.8,
+        "passed": False,
+        "comment": "超现实主义与 Jugendstil 虽然都追求神秘感，但表现方式完全不同。Jugendstil 通过装饰性图案和有机曲线营造梦幻氛围，超现实主义通过荒诞并置和潜意识意象表达梦境。此作是典型的超现实主义风格——不合逻辑的空间、象征性意象——与 Jugendstil 的装饰性美学有本质差异。在通用美学方面，作品想象力丰富，技术精湛，但略显'插画化'，缺乏真正的艺术暧昧性。",
+        "consecutive": 0
+    },
+    "ukiyo-e-wave-of-dreams": {
+        "style_score": 3.5,
+        "aesthetic_score": 9.2,
+        "passed": False,
+        "comment": "浮世绘与 Jugendstil 有历史联系——日本主义对新艺术运动有重要影响——但美学语言仍有显著差异。浮世绘强调平面性、线条勾勒、版画技法，Jugendstil 强调流动曲线、装饰性图案、绘画性。此作是典型的浮世绘风格，与 Jugendstil 有某些共通之处（装饰性、线条美），但整体美学仍属于日本传统艺术。在通用美学方面，作品构图经典，色彩和谐，技术精湛，但略显'复制性'，缺乏当代性与创新。",
+        "consecutive": 0
+    },
+    "vaporwave-digital-nostalgia": {
+        "style_score": 0.0,
+        "aesthetic_score": 7.8,
+        "passed": False,
+        "comment": "蒸汽波与 Jugendstil 在时代、媒介、美学上完全无关。Jugendstil 是19世纪末的装饰艺术，蒸汽波是21世纪的数字亚文化美学。此作是典型的蒸汽波风格——数字拼贴、怀旧色调、网络美学——与 Jugendstil 的有机曲线和装饰性毫无关联。在通用美学方面，作品具有独特的亚文化魅力，但缺乏传统艺术的深度与技术性。",
+        "consecutive": 0
+    }
+}
+
+# 输出评估结果
+for artwork, data in evaluations.items():
+    print(f"\n{'='*60}")
+    print(f"作品: {artwork}")
+    print(f"风格契合度: {data['style_score']}/10.0")
+    print(f"通用美学: {data['aesthetic_score']}/10.0")
+    print(f"通过: {'✅' if data['passed'] else '❌'}")
+    print(f"连续通过次数: {data['consecutive']}")
+    print(f"\n评语: {data['comment']}")
+
+# 保存为JSON
+with open('/home/ubuntu/art-gallery-curator/jugendstil_evaluation.json', 'w', encoding='utf-8') as f:
+    json.dump(evaluations, f, ensure_ascii=False, indent=2)
+
+print(f"\n{'='*60}")
+print(f"评估完成！共评估 {len(evaluations)} 件作品")
+print(f"通过: {sum(1 for d in evaluations.values() if d['passed'])} 件")
+print(f"未通过: {sum(1 for d in evaluations.values() if not d['passed'])} 件")
