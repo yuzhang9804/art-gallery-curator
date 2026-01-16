@@ -1,0 +1,25 @@
+批量评估报告 - 主导风格：Algorithmic Art
+评估日期：2026-01-16
+
+art-deco-metropolitan-elegance: A=0.5, B=7.5, FAIL, 0→0
+art-nouveau-floral-reverie: A=0.5, B=7.5, FAIL, 0→0
+bauhaus-geometric-harmony: A=0.5, B=7.5, FAIL, 0→0
+byzantine-sacred-mosaic: A=0.5, B=7.5, FAIL, 0→0
+constructivism-revolutionary-architecture: A=0.5, B=7.5, FAIL, 0→0
+cyberpunk-neon-rain: A=7.0, B=8.0, FAIL, 0→0
+digital-art-quantum-garden: A=7.0, B=8.0, FAIL, 0→0
+futurism-velocity-symphony: A=0.5, B=7.5, FAIL, 0→0
+german-expressionism-urban-anxiety: A=0.5, B=7.5, FAIL, 1→0
+jugendstil-enchanted-forest: A=0.5, B=7.5, FAIL, 1→0
+land-art-spiral-desert: A=0.5, B=7.5, FAIL, 0→0
+outsider-art-inner-cosmos: A=0.5, B=7.5, FAIL, 0→0
+pointillism-sunday-by-the-river: A=0.5, B=7.5, FAIL, 0→0
+pop-art-consumer-paradise: A=0.5, B=7.5, FAIL, 0→0
+rococo-garden-of-enchantment: A=0.5, B=7.5, FAIL, 1→0
+situationist-international-urban-drift: A=0.5, B=7.5, FAIL, 1→0
+steampunk-clockwork-observatory: A=0.5, B=7.5, FAIL, 0→0
+suprematism-cosmic-architecture: A=0.5, B=7.5, FAIL, 1→0
+suprematism-cosmic-ascension: A=0.5, B=7.5, FAIL, 1→0
+surrealism-dreamscape-labyrinth: A=0.5, B=7.5, FAIL, 0→0
+ukiyo-e-wave-of-dreams: A=0.5, B=7.5, FAIL, 0→0
+vaporwave-digital-nostalgia: A=0.5, B=7.5, FAIL, 0→0
