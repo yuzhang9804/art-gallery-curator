@@ -1,6 +1,6 @@
 {
-  "dominant_style": "Purism",
-  "dominant_style_desc": "Pure geometric forms, clarity, precision, and machine aesthetic with restrained color palette",
+  "dominant_style": "Rayonism",
+  "dominant_style_desc": "Russian avant-garde movement depicting intersecting rays of light as physical forces, with dynamic prismatic colors and angular energy",
   "artworks": [
     {
       "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
@@ -12,6 +12,12 @@
       "name": "2026-01-17-purism-futuristic-nostalgia",
       "style": "Purism",
       "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-purism-futuristic-nostalgia/v1-original.png",
+      "consecutive_passes": 0
+    },
+    {
+      "name": "2026-01-17-rayonism-light-rays",
+      "style": "Rayonism",
+      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-rayonism-light-rays/v1-original.png",
       "consecutive_passes": 0
     },
     {
@@ -114,7 +120,7 @@
       "name": "neo-geo-industrial-meditation",
       "style": "Neo-Geo",
       "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/neo-geo-industrial-meditation/v1-original.png",
-      "consecutive_passes": 1
+      "consecutive_passes": 0
     },
     {
       "name": "outsider-art-inner-cosmos",

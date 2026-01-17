@@ -10,8 +10,8 @@ from pathlib import Path
 from datetime import datetime
 
 # Today's dominant style for evaluation
-DOMINANT_STYLE = "Neo-Geo"
-DOMINANT_STYLE_DESC = "Geometric abstraction revival with industrial materials and minimalist forms"
+DOMINANT_STYLE = "Rayonism"
+DOMINANT_STYLE_DESC = "Russian avant-garde movement depicting intersecting rays of light as physical forces, with dynamic prismatic colors and angular energy"
 
 # Evaluation criteria
 PASS_THRESHOLD = 9.5  # Either criterion A or B must be >= 9.5
@@ -83,6 +83,8 @@ def extract_style_from_name(artwork_name):
         'outsider-art': 'Outsider Art',
         'pointillism': 'Pointillism',
         'pop-art': 'Pop Art',
+        'purism': 'Purism',
+        'rayonism': 'Rayonism',
         'rococo': 'Rococo',
         'secessionist': 'Secessionism',
         'situationist': 'Situationist International',
