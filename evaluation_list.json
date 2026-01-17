@@ -1,11 +1,17 @@
 {
-  "dominant_style": "Neo-Geo",
-  "dominant_style_desc": "Geometric abstraction revival with industrial materials and minimalist forms",
+  "dominant_style": "Purism",
+  "dominant_style_desc": "Pure geometric forms, clarity, precision, and machine aesthetic with restrained color palette",
   "artworks": [
     {
       "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
       "style": "Brutalism",
       "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-brutalist-architecture-concrete-structure-with/v3-aboriginal-fusion.png",
+      "consecutive_passes": 0
+    },
+    {
+      "name": "2026-01-17-purism-futuristic-nostalgia",
+      "style": "Purism",
+      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-purism-futuristic-nostalgia/v1-original.png",
       "consecutive_passes": 0
     },
     {
@@ -108,7 +114,7 @@
       "name": "neo-geo-industrial-meditation",
       "style": "Neo-Geo",
       "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/neo-geo-industrial-meditation/v1-original.png",
-      "consecutive_passes": 0
+      "consecutive_passes": 1
     },
     {
       "name": "outsider-art-inner-cosmos",

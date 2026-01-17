@@ -1,0 +1,62 @@
+[
+  {
+    "criterion_a_score": 5.5,
+    "criterion_a_reasoning": "该作品虽为粗犷的混凝土结构，符合布鲁塔利主义的建筑风格，但与纯粹主义的核心理念相去甚远。纯粹主义强调纯净的几何形态、清晰度和机械美学，而此作品表面覆盖了复杂的点画和有机图案，这种装饰性与纯粹主义的简洁和克制色彩形成明显冲突。",
+    "criterion_b_score": 6.8,
+    "criterion_b_reasoning": "作品在构图上表现出一定的层次感和视觉节奏，色彩使用以土黄、橙红为主，整体调和且具有地域文化特色，表现出一定的创造力和情感表达。然而，图案的繁复与建筑的刚硬结构形成了视觉上的冲突，整体美学感受较为复杂，未能达到高度统一和纯粹的美学境界。",
+    "passed": false,
+    "overall_comment": "这件作品虽具备一定的建筑美学和文化表达价值，但与今日主张的纯粹主义风格差距较大，未能体现出纯粹主义对几何纯净和色彩克制的要求，因此不符合本次展览的严格筛选标准。",
+    "artwork_name": "2026-01-17-brutalist-architecture-concrete-structure-with",
+    "artwork_style": "Brutalism",
+    "image_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-brutalist-architecture-concrete-structure-with/v3-aboriginal-fusion.png",
+    "previous_consecutive_passes": 0
+  },
+  {
+    "criterion_a_score": 8.2,
+    "criterion_a_reasoning": "作品整体体现了纯粹主义对几何形式的关注，线条清晰，构图严谨，机械美学感明显。色彩采用了克制的灰褐色调，符合纯粹主义的色彩限制。然而，画面中存在一定的装饰性元素和叙事性符号（如飞机和齿轮图纸），与纯粹主义强调的纯粹几何抽象略有偏差，导致风格纯粹性未能达到顶尖水平。",
+    "criterion_b_score": 7.5,
+    "criterion_b_reasoning": "构图上层次分明，空间处理得当，视觉引导合理，体现了良好的美学素养。色彩统一且调和，但缺少足够的创新性和强烈的情感表达，作品情绪较为冷静和克制，缺少打动人心的表现力，整体创意中规中矩，未能突破常规。",
+    "passed": false,
+    "overall_comment": "作品在纯粹主义风格的表现上较为扎实，但缺乏足够的创新与情感深度，未能达到评审严格标准的高分要求，未能通过此次评审。",
+    "artwork_name": "2026-01-17-purism-futuristic-nostalgia",
+    "artwork_style": "Purism",
+    "image_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-purism-futuristic-nostalgia/v1-original.png",
+    "previous_consecutive_passes": 0
+  },
+  {
+    "criterion_a_score": 2.0,
+    "criterion_a_reasoning": "作品整体风格偏向抽象表现主义，画面主导的是流动的笔触和浓烈的情感表达，缺乏纯粹的几何形态、清晰的线条和机器美学特征，色彩较为丰富且质感厚重，远离了Purism所强调的简约和精准。",
+    "criterion_b_score": 6.5,
+    "criterion_b_reasoning": "作品在色彩搭配和情感表达上有一定的创造性，金色与深绿、红色的结合制造出视觉冲击力，但整体构图较为混乱，缺乏清晰的层次感和秩序感，情感表达强烈但不够细腻，表现力尚可但未达卓越水平。",
+    "passed": false,
+    "overall_comment": "这件作品虽然情感丰富且色彩大胆，但与今天主导风格Purism严重不符，且在构图和表现力方面未能达到极高水准，整体不具备通过资格。",
+    "artwork_name": "abstract-expressionism-emotional-tempest",
+    "artwork_style": "Abstract Expressionism",
+    "image_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/abstract-expressionism-emotional-tempest/v9-secessionist-fusion.png",
+    "previous_consecutive_passes": 0
+  },
+  {
+    "criterion_a_score": 5.8,
+    "criterion_a_reasoning": "该作品虽然有几何元素和色块，但整体缺乏普里西姆风格所强调的纯净几何形态、清晰度和机械美学。画面中复杂的分形结构和渐变色彩与普里西姆的简洁、精确形成明显反差，风格契合度较低。",
+    "criterion_b_score": 7.2,
+    "criterion_b_reasoning": "作品在构图上具有一定的创意，色彩运用丰富且层次分明，视觉冲击力较强，但整体情感表现较为抽象，缺乏直接的情感传达。复杂的分形图案虽有吸引力，但视觉上略显杂乱，缺乏整体统一感。",
+    "passed": false,
+    "overall_comment": "这件作品在表现力和色彩上有一定的亮点，但与今天主导的普里西姆风格存在较大差距，未能体现纯净几何和机械美学的核心精神，不符合高标准的风格契合要求。",
+    "artwork_name": "algorithmic-art-fractal-consciousness",
+    "artwork_style": "Algorithmic Art",
+    "image_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/algorithmic-art-fractal-consciousness/v3-elementarism-fusion.png",
+    "previous_consecutive_passes": 0
+  },
+  {
+    "criterion_a_score": 5.5,
+    "criterion_a_reasoning": "该作品虽然采用了大量几何图形和金属质感，体现了一定的机能美学，但整体风格更偏向装饰性极强的装饰艺术（Art Deco），缺乏Purism所强调的纯粹几何形式和极简的色彩限制。作品的复杂装饰和多样色彩违背了Purism对清晰、精准和简洁的追求。",
+    "criterion_b_score": 7.0,
+    "criterion_b_reasoning": "作品在构图和色彩运用上表现出较高的创造力和视觉冲击力，色彩对比鲜明且富有装饰性，情感表达较为丰富。但整体较为繁复，缺乏Purism所要求的那种纯净和沉稳的美学气质，因此在普适美学上表现一般。",
+    "passed": false,
+    "overall_comment": "该作品虽具备一定的几何美感和机能元素，但其装饰艺术的繁复风格与Purism的纯粹、简洁理念相去甚远，未能达到苛刻的风格对齐要求。整体视觉虽有吸引力，但缺乏严格的风格统一性，未能通过评审。",
+    "artwork_name": "art-deco-metropolitan-elegance",
+    "artwork_style": "Art Deco",
+    "image_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-deco-metropolitan-elegance/v8-elementarism-fusion.png",
+    "previous_consecutive_passes": 0
+  }
+]

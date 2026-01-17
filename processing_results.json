@@ -1,0 +1,346 @@
+{
+  "dominant_style": "Purism",
+  "timestamp": "2026-01-17T12:20:49.912340",
+  "results": [
+    {
+      "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
+      "style": "Brutalism",
+      "criterion_a": 3.6,
+      "criterion_b": 8.1,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "2026-01-17-purism-futuristic-nostalgia",
+      "style": "Purism",
+      "criterion_a": 8.2,
+      "criterion_b": 7.5,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "abstract-expressionism-emotional-tempest",
+      "style": "Abstract Expressionism",
+      "criterion_a": 3.2,
+      "criterion_b": 7.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "algorithmic-art-fractal-consciousness",
+      "style": "Algorithmic Art",
+      "criterion_a": 4.2,
+      "criterion_b": 7.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "art-deco-metropolitan-elegance",
+      "style": "Art Deco",
+      "criterion_a": 3.3,
+      "criterion_b": 8.3,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "art-nouveau-floral-reverie",
+      "style": "Art Nouveau",
+      "criterion_a": 5.4,
+      "criterion_b": 5.9,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "bauhaus-geometric-harmony",
+      "style": "Bauhaus",
+      "criterion_a": 7.9,
+      "criterion_b": 6.9,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "byzantine-sacred-mosaic",
+      "style": "Byzantine",
+      "criterion_a": 4.7,
+      "criterion_b": 7.7,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "constructivism-revolutionary-architecture",
+      "style": "Constructivism",
+      "criterion_a": 7.0,
+      "criterion_b": 7.5,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "cyberpunk-neon-rain",
+      "style": "Cyberpunk",
+      "criterion_a": 6.2,
+      "criterion_b": 5.7,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "digital-art-quantum-garden",
+      "style": "Digital Art",
+      "criterion_a": 4.0,
+      "criterion_b": 8.0,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "elementarism-dynamic-diagonals",
+      "style": "Elementarism",
+      "criterion_a": 6.4,
+      "criterion_b": 6.4,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "fauvism-wild-garden-at-twilight",
+      "style": "Fauvism",
+      "criterion_a": 3.0,
+      "criterion_b": 8.0,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "futurism-velocity-symphony",
+      "style": "Futurism",
+      "criterion_a": 4.1,
+      "criterion_b": 5.6,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "german-expressionism-urban-anxiety",
+      "style": "German Expressionism",
+      "criterion_a": 5.4,
+      "criterion_b": 5.9,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "jugendstil-enchanted-forest",
+      "style": "Jugendstil",
+      "criterion_a": 3.7,
+      "criterion_b": 6.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "kinetic-art-perpetual-motion",
+      "style": "Kinetic Art",
+      "criterion_a": 3.2,
+      "criterion_b": 8.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "land-art-spiral-desert",
+      "style": "Land Art",
+      "criterion_a": 4.7,
+      "criterion_b": 8.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "neo-geo-industrial-meditation",
+      "style": "Neo-Geo",
+      "criterion_a": 4.4,
+      "criterion_b": 7.4,
+      "passed": false,
+      "previous_passes": 1,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "outsider-art-inner-cosmos",
+      "style": "Outsider Art",
+      "criterion_a": 4.5,
+      "criterion_b": 6.5,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "pointillism-sunday-by-the-river",
+      "style": "Pointillism",
+      "criterion_a": 4.6,
+      "criterion_b": 7.1,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "pop-art-consumer-paradise",
+      "style": "Pop Art",
+      "criterion_a": 5.9,
+      "criterion_b": 6.4,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "rococo-garden-of-enchantment",
+      "style": "Rococo",
+      "criterion_a": 4.1,
+      "criterion_b": 6.6,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "secessionist-eternal-embrace",
+      "style": "Secessionism",
+      "criterion_a": 3.5,
+      "criterion_b": 6.0,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "situationist-international-urban-drift",
+      "style": "Situationist International",
+      "criterion_a": 5.2,
+      "criterion_b": 8.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "songlines-of-the-eternal-dreaming",
+      "style": "Aboriginal Songlines",
+      "criterion_a": 4.4,
+      "criterion_b": 7.4,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "steampunk-clockwork-observatory",
+      "style": "Steampunk",
+      "criterion_a": 6.2,
+      "criterion_b": 7.7,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "suprematism-cosmic-architecture",
+      "style": "Suprematism",
+      "criterion_a": 7.5,
+      "criterion_b": 7.5,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "suprematism-cosmic-ascension",
+      "style": "Suprematism",
+      "criterion_a": 7.2,
+      "criterion_b": 7.2,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "surrealism-dreamscape-labyrinth",
+      "style": "Surrealism",
+      "criterion_a": 5.5,
+      "criterion_b": 7.0,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "tenebrism-candlelit-contemplation",
+      "style": "Tenebrism",
+      "criterion_a": 5.0,
+      "criterion_b": 6.0,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "ukiyo-e-wave-of-dreams",
+      "style": "Ukiyo-e",
+      "criterion_a": 3.6,
+      "criterion_b": 8.1,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    },
+    {
+      "name": "vaporwave-digital-nostalgia",
+      "style": "Vaporwave",
+      "criterion_a": 6.3,
+      "criterion_b": 7.8,
+      "passed": false,
+      "previous_passes": 0,
+      "new_passes": 0,
+      "action": "FAIL"
+    }
+  ],
+  "to_perfect": [],
+  "new_versions_needed": [
+    "2026-01-17-purism-futuristic-nostalgia",
+    "elementarism-dynamic-diagonals",
+    "kinetic-art-perpetual-motion",
+    "neo-geo-industrial-meditation",
+    "secessionist-eternal-embrace",
+    "songlines-of-the-eternal-dreaming",
+    "tenebrism-candlelit-contemplation"
+  ]
+}
