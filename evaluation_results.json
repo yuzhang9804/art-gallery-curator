@@ -1,0 +1,40 @@
+{
+  "passed": [
+    "neo-geo-industrial-meditation"
+  ],
+  "failed": [
+    "2026-01-17-brutalist-architecture-concrete-structure-with",
+    "abstract-expressionism-emotional-tempest",
+    "algorithmic-art-fractal-consciousness",
+    "art-deco-metropolitan-elegance",
+    "art-nouveau-floral-reverie",
+    "bauhaus-geometric-harmony",
+    "byzantine-sacred-mosaic",
+    "constructivism-revolutionary-architecture",
+    "cyberpunk-neon-rain",
+    "digital-art-quantum-garden",
+    "elementarism-dynamic-diagonals",
+    "fauvism-wild-garden-at-twilight",
+    "futurism-velocity-symphony",
+    "german-expressionism-urban-anxiety",
+    "jugendstil-enchanted-forest",
+    "kinetic-art-perpetual-motion",
+    "land-art-spiral-desert",
+    "outsider-art-inner-cosmos",
+    "pointillism-sunday-by-the-river",
+    "pop-art-consumer-paradise",
+    "rococo-garden-of-enchantment",
+    "secessionist-eternal-embrace",
+    "situationist-international-urban-drift",
+    "songlines-of-the-eternal-dreaming",
+    "steampunk-clockwork-observatory",
+    "suprematism-cosmic-architecture",
+    "suprematism-cosmic-ascension",
+    "surrealism-dreamscape-labyrinth",
+    "tenebrism-candlelit-contemplation",
+    "ukiyo-e-wave-of-dreams",
+    "vaporwave-digital-nostalgia"
+  ],
+  "to_perfect": [],
+  "to_regenerate": []
+}
