@@ -10,8 +10,8 @@ from pathlib import Path
 from datetime import datetime
 
 # Today's dominant style for evaluation
-DOMINANT_STYLE = "Rayonism"
-DOMINANT_STYLE_DESC = "Russian avant-garde movement depicting intersecting rays of light as physical forces, with dynamic prismatic colors and angular energy"
+DOMINANT_STYLE = "Graffiti Art"
+DOMINANT_STYLE_DESC = "Urban street art movement featuring bold spray-painted murals, wildstyle lettering, vibrant colors, and social commentary with raw rebellious energy"
 
 # Evaluation criteria
 PASS_THRESHOLD = 9.5  # Either criterion A or B must be >= 9.5
@@ -94,7 +94,9 @@ def extract_style_from_name(artwork_name):
         'surrealism': 'Surrealism',
         'tenebrism': 'Tenebrism',
         'ukiyo-e': 'Ukiyo-e',
-        'vaporwave': 'Vaporwave'
+        'vaporwave': 'Vaporwave',
+        'graffiti-art': 'Graffiti Art',
+        'graffiti': 'Graffiti Art'
     }
     
     for key, value in style_map.items():

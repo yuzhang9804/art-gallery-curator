@@ -1,0 +1,257 @@
+{
+  "updated_passed": [
+    {
+      "name": "2026-01-18-graffiti-art-urban-rebellion",
+      "consecutive": 1,
+      "style_score": 9.6,
+      "aesthetic_score": 9.4
+    }
+  ],
+  "updated_failed": [
+    {
+      "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "2026-01-17-purism-futuristic-nostalgia",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "2026-01-17-rayonism-light-rays",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "abstract-expressionism-emotional-tempest",
+      "previous_consecutive": 0,
+      "style_score": 5.5,
+      "aesthetic_score": 8.9
+    },
+    {
+      "name": "algorithmic-art-fractal-consciousness",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "art-deco-metropolitan-elegance",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "art-nouveau-floral-reverie",
+      "previous_consecutive": 0,
+      "style_score": 3.5,
+      "aesthetic_score": 8.4
+    },
+    {
+      "name": "bauhaus-geometric-harmony",
+      "previous_consecutive": 0,
+      "style_score": 4.8,
+      "aesthetic_score": 9.1
+    },
+    {
+      "name": "byzantine-sacred-mosaic",
+      "previous_consecutive": 0,
+      "style_score": 2.8,
+      "aesthetic_score": 8.3
+    },
+    {
+      "name": "constructivism-revolutionary-architecture",
+      "previous_consecutive": 0,
+      "style_score": 6.5,
+      "aesthetic_score": 8.7
+    },
+    {
+      "name": "cyberpunk-neon-rain",
+      "previous_consecutive": 0,
+      "style_score": 7.8,
+      "aesthetic_score": 8.6
+    },
+    {
+      "name": "digital-art-quantum-garden",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "elementarism-dynamic-diagonals",
+      "previous_consecutive": 0,
+      "style_score": 4.8,
+      "aesthetic_score": 9.0
+    },
+    {
+      "name": "fauvism-wild-garden-at-twilight",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "futurism-velocity-symphony",
+      "previous_consecutive": 0,
+      "style_score": 6.5,
+      "aesthetic_score": 8.7
+    },
+    {
+      "name": "german-expressionism-urban-anxiety",
+      "previous_consecutive": 0,
+      "style_score": 7.5,
+      "aesthetic_score": 8.5
+    },
+    {
+      "name": "jugendstil-enchanted-forest",
+      "previous_consecutive": 0,
+      "style_score": 3.5,
+      "aesthetic_score": 8.4
+    },
+    {
+      "name": "kinetic-art-mechanical-symphony",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "kinetic-art-perpetual-motion",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "kinetic-art-temporal-cascade",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "land-art-spiral-desert",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "macchiaioli-tuscan-afternoon",
+      "previous_consecutive": 1,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "metaphysical-art-philosophers-plaza",
+      "previous_consecutive": 1,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "neo-geo-industrial-meditation",
+      "previous_consecutive": 0,
+      "style_score": 4.8,
+      "aesthetic_score": 9.0
+    },
+    {
+      "name": "outsider-art-inner-cosmos",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "pointillism-sunday-by-the-river",
+      "previous_consecutive": 0,
+      "style_score": 3.0,
+      "aesthetic_score": 8.2
+    },
+    {
+      "name": "pop-art-consumer-paradise",
+      "previous_consecutive": 0,
+      "style_score": 7.8,
+      "aesthetic_score": 8.6
+    },
+    {
+      "name": "rococo-garden-of-enchantment",
+      "previous_consecutive": 0,
+      "style_score": 3.5,
+      "aesthetic_score": 8.4
+    },
+    {
+      "name": "secessionist-eternal-embrace",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "situationist-international-urban-drift",
+      "previous_consecutive": 0,
+      "style_score": 7.5,
+      "aesthetic_score": 8.5
+    },
+    {
+      "name": "songlines-of-the-eternal-dreaming",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.0
+    },
+    {
+      "name": "steampunk-clockwork-observatory",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    },
+    {
+      "name": "suprematism-cosmic-architecture",
+      "previous_consecutive": 0,
+      "style_score": 4.8,
+      "aesthetic_score": 9.1
+    },
+    {
+      "name": "suprematism-cosmic-ascension",
+      "previous_consecutive": 0,
+      "style_score": 4.8,
+      "aesthetic_score": 9.1
+    },
+    {
+      "name": "surrealism-dreamscape-labyrinth",
+      "previous_consecutive": 0,
+      "style_score": 4.2,
+      "aesthetic_score": 8.8
+    },
+    {
+      "name": "tenebrism-candlelit-contemplation",
+      "previous_consecutive": 0,
+      "style_score": 2.8,
+      "aesthetic_score": 8.2
+    },
+    {
+      "name": "ukiyo-e-wave-of-dreams",
+      "previous_consecutive": 0,
+      "style_score": 3.0,
+      "aesthetic_score": 8.2
+    },
+    {
+      "name": "urban-anxiety-neo-expressionism",
+      "previous_consecutive": 0,
+      "style_score": 7.5,
+      "aesthetic_score": 8.4
+    },
+    {
+      "name": "vaporwave-digital-nostalgia",
+      "previous_consecutive": 0,
+      "style_score": 4.0,
+      "aesthetic_score": 8.1
+    }
+  ],
+  "to_generate": [
+    {
+      "name": "macchiaioli-tuscan-afternoon",
+      "style": "Unknown Style"
+    },
+    {
+      "name": "metaphysical-art-philosophers-plaza",
+      "style": "Unknown Style"
+    }
+  ],
+  "to_perfect": []
+}
