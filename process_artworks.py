@@ -1,139 +1,105 @@
 #!/usr/bin/env python3.11
 """
-作品处理脚本：根据评估结果更新 CHANGELOG 和生成新版本
+Process artworks based on evaluation results
 """
 
 import json
-import os
-import re
 from pathlib import Path
 from datetime import datetime
 
-# 读取评估结果
-with open('/home/ubuntu/art-gallery-curator/detailed_evaluation_results.json', 'r', encoding='utf-8') as f:
-    evaluation_data = json.load(f)
+# Load evaluation results
+GALLERY_ROOT = Path("/home/ubuntu/art-gallery-curator/gallery")
+results_file = GALLERY_ROOT / "evaluation_results.json"
 
-results = evaluation_data['results']
-dominant_style = evaluation_data['dominant_style']
+with open(results_file, 'r', encoding='utf-8') as f:
+    evaluation_results = json.load(f)
 
-# 统计信息
-actions = {
-    'updated_passed': [],  # 通过，更新连续通过次数
-    'updated_failed': [],  # 未通过，连续通过次数归零
-    'to_generate': [],     # 需要生成新版本的作品
-    'to_perfect': []       # 晋升到 perfect 的作品
-}
-
-# 处理每个作品
-for result in results:
-    artwork_name = result['name']
-    passed = result['passed']
-    consecutive_passes = result['consecutive_passes']
+# Process each artwork
+for result in evaluation_results:
+    folder_name = result['folder']
+    artwork_dir = GALLERY_ROOT / "in-progress" / folder_name
     
-    artwork_dir = Path(f"/home/ubuntu/art-gallery-curator/gallery/in-progress/{artwork_name}")
-    changelog_path = artwork_dir / "CHANGELOG.md"
-    
-    if not changelog_path.exists():
-        print(f"警告: {artwork_name} 缺少 CHANGELOG.md，跳过")
+    if not artwork_dir.exists():
         continue
     
-    # 读取现有 CHANGELOG
-    with open(changelog_path, 'r', encoding='utf-8') as f:
-        changelog_content = f.read()
+    # Create or update CHANGELOG.md
+    changelog_path = artwork_dir / "CHANGELOG.md"
     
-    # 更新连续通过次数
-    if passed:
-        new_consecutive = consecutive_passes + 1
-        
-        # 检查是否达到完美标准（10次）
-        if new_consecutive >= 10:
-            actions['to_perfect'].append({
-                'name': artwork_name,
-                'consecutive': new_consecutive
-            })
-        else:
-            actions['updated_passed'].append({
-                'name': artwork_name,
-                'consecutive': new_consecutive,
-                'style_score': result['style_score'],
-                'aesthetic_score': result['aesthetic_score']
-            })
-        
-        # 更新 CHANGELOG
-        # 更新连续通过次数
-        if '连续通过次数：' in changelog_content:
-            changelog_content = re.sub(
-                r'## 连续通过次数：\d+',
-                f'## 连续通过次数：{new_consecutive}',
-                changelog_content
-            )
-        else:
-            # 如果没有找到，在文件开头添加
-            changelog_content = f"# Changelog: {artwork_name}\n\n## 连续通过次数：{new_consecutive}\n\n" + changelog_content
-        
-        # 添加新的评估记录
-        today = datetime.now().strftime('%Y-%m-%d')
-        new_entry = f"\n## {today} - 评估通过\n"
-        new_entry += f"- **主导风格**: {dominant_style}\n"
-        new_entry += f"- **风格契合度**: {result['style_score']}/10\n"
-        new_entry += f"- **通用美学**: {result['aesthetic_score']}/10\n"
-        new_entry += f"- **连续通过次数**: {consecutive_passes} → {new_consecutive}\n"
-        new_entry += f"- **评语**: {result['comments']}\n"
-        
-        changelog_content += new_entry
-        
-    else:
-        # 未通过，连续通过次数归零
-        new_consecutive = 0
-        
-        actions['updated_failed'].append({
-            'name': artwork_name,
-            'previous_consecutive': consecutive_passes,
-            'style_score': result['style_score'],
-            'aesthetic_score': result['aesthetic_score']
-        })
-        
-        # 如果之前有连续通过次数，需要生成新版本
-        if consecutive_passes > 0:
-            actions['to_generate'].append({
-                'name': artwork_name,
-                'style': result['style']
-            })
-        
-        # 更新 CHANGELOG
-        if '连续通过次数：' in changelog_content:
-            changelog_content = re.sub(
-                r'## 连续通过次数：\d+',
-                f'## 连续通过次数：0',
-                changelog_content
-            )
-        else:
-            changelog_content = f"# Changelog: {artwork_name}\n\n## 连续通过次数：0\n\n" + changelog_content
-        
-        # 添加新的评估记录
-        today = datetime.now().strftime('%Y-%m-%d')
-        new_entry = f"\n## {today} - 评估未通过\n"
-        new_entry += f"- **主导风格**: {dominant_style}\n"
-        new_entry += f"- **风格契合度**: {result['style_score']}/10\n"
-        new_entry += f"- **通用美学**: {result['aesthetic_score']}/10\n"
-        new_entry += f"- **连续通过次数归零**: {consecutive_passes} → 0\n"
-        new_entry += f"- **评语**: {result['comments']}\n"
-        
-        changelog_content += new_entry
+    # Get current date
+    current_date = datetime.now().strftime("%Y-%m-%d")
     
-    # 写回 CHANGELOG
+    # Create changelog entry
+    changelog_entry = f"""# Changelog - {result['title']}
+
+## {current_date} - Neo-Expressionism Evaluation
+
+**评估风格**: Neo-Expressionism (新表现主义)
+
+**评分结果**:
+- 风格契合度 (Style Alignment): {result['style_alignment']:.1f}/10.0
+- 通用美学 (Universal Aesthetics): {result['universal_aesthetics']:.1f}/10.0
+
+**本次判定**: {'✓ 通过' if result['passed'] else '✗ 未通过'}
+
+**连续通过次数**: {result['current_consecutive']} → {result['new_consecutive']}
+
+---
+
+"""
+    
+    # Read existing changelog if exists
+    existing_content = ""
+    if changelog_path.exists():
+        existing_content = changelog_path.read_text(encoding='utf-8')
+        # Remove old header if exists
+        if existing_content.startswith("# Changelog"):
+            lines = existing_content.split('\n')
+            # Find first "---" separator
+            for i, line in enumerate(lines):
+                if line.strip() == "---" and i > 0:
+                    existing_content = '\n'.join(lines[i+1:])
+                    break
+    
+    # Write updated changelog
     with open(changelog_path, 'w', encoding='utf-8') as f:
-        f.write(changelog_content)
+        f.write(changelog_entry)
+        if existing_content.strip():
+            f.write(existing_content)
+    
+    # Create GALLERY.md if it doesn't exist
+    gallery_path = artwork_dir / "GALLERY.md"
+    if not gallery_path.exists():
+        # Find v1-original.png
+        v1_path = artwork_dir / "v1-original.png"
+        if v1_path.exists():
+            gallery_content = f"""# {result['title']}
 
-# 保存处理结果
-output_file = '/home/ubuntu/art-gallery-curator/processing_actions.json'
-with open(output_file, 'w', encoding='utf-8') as f:
-    json.dump(actions, f, ensure_ascii=False, indent=2)
+![{result['title']}](v1-original.png)
 
-# 打印统计
-print(f"=== 作品处理完成 ===")
-print(f"通过并更新: {len(actions['updated_passed'])}")
-print(f"未通过并归零: {len(actions['updated_failed'])}")
-print(f"需要生成新版本: {len(actions['to_generate'])}")
-print(f"晋升到 perfect: {len(actions['to_perfect'])}")
-print(f"\n详细信息已保存到: {output_file}")
+**Style**: {result['style']}
+
+**Status**: In Progress
+
+**Consecutive Passes**: {result['new_consecutive']}/10
+
+---
+
+*Last updated: {current_date}*
+"""
+            with open(gallery_path, 'w', encoding='utf-8') as f:
+                f.write(gallery_content)
+    
+    print(f"Processed: {folder_name}")
+
+print(f"\nAll artworks processed. CHANGELOGs updated.")
+
+# Output list of artworks that need new versions
+failed_artworks = [r for r in evaluation_results if not r['passed']]
+print(f"\nArtworks needing new versions: {len(failed_artworks)}")
+
+# Save list for reference
+failed_list_path = GALLERY_ROOT / "artworks_need_regeneration.json"
+with open(failed_list_path, 'w', encoding='utf-8') as f:
+    json.dump(failed_artworks, f, indent=2, ensure_ascii=False)
+
+print(f"List saved to: {failed_list_path}")

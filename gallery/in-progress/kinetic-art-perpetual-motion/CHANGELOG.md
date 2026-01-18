@@ -1,26 +1,19 @@
-# Changelog: kinetic-art-perpetual-motion
+# Changelog - Perpetual Motion
 
-## 连续通过次数：0
+## 2026-01-18 - Neo-Expressionism Evaluation
 
-# kinetic-art-perpetual-motion - 作品演变记录
+**评估风格**: Neo-Expressionism (新表现主义)
 
+**评分结果**:
+- 风格契合度 (Style Alignment): 3.6/10.0
+- 通用美学 (Universal Aesthetics): 7.9/10.0
 
-## 2026-01-18 - Regionalism 评估
+**本次判定**: ✗ 未通过
 
-**评估风格**: Regionalism（地区主义）
-
-**评分**:
-- 标准A (风格契合度): 1.5/10.0
-- 标准B (通用美学): 8.2/10.0
-
-**判定**: ❌ **未通过**
-
-**评语**:
-作品风格与Regionalism完全不符，虽然在原风格中可能具有价值
-
-**连续通过次数更新**: 0 → 0
+**连续通过次数**: 0 → 0
 
 ---
+
 ## 2026-01-18 - Tonalism 评估
 
 **评估风格**: Tonalism（色调主义）
