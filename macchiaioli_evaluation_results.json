@@ -1,0 +1,306 @@
+{
+  "2026-01-17-brutalist-architecture-concrete-structure-with": {
+    "style_fit": 1.2,
+    "aesthetics": 8.7,
+    "passed": false,
+    "consecutive": 0,
+    "action": "generated_v8",
+    "comment": "Brutalist photography vs Macchiaioli painting - completely different"
+  },
+  "2026-01-17-purism-futuristic-nostalgia": {
+    "style_fit": 2.1,
+    "aesthetics": 8.4,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Purism geometric abstraction lacks Macchiaioli naturalism"
+  },
+  "2026-01-17-rayonism-light-rays": {
+    "style_fit": 3.2,
+    "aesthetics": 8.6,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Abstract light rays vs representational landscape"
+  },
+  "abstract-expressionism-emotional-tempest": {
+    "style_fit": 1.8,
+    "aesthetics": 9.1,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Abstract expressionism completely opposite to Macchiaioli realism"
+  },
+  "algorithmic-art-fractal-consciousness": {
+    "style_fit": 0.5,
+    "aesthetics": 8.3,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Digital algorithmic art vs 19th century oil painting"
+  },
+  "art-deco-metropolitan-elegance": {
+    "style_fit": 2.7,
+    "aesthetics": 9.2,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Art Deco urban glamour vs rustic countryside"
+  },
+  "art-nouveau-floral-reverie": {
+    "style_fit": 4.2,
+    "aesthetics": 9.0,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Decorative curves vs bold patches of light/shadow"
+  },
+  "bauhaus-geometric-harmony": {
+    "style_fit": 1.5,
+    "aesthetics": 8.8,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Bauhaus minimalism vs Macchiaioli naturalism"
+  },
+  "byzantine-sacred-mosaic": {
+    "style_fit": 2.3,
+    "aesthetics": 8.9,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Byzantine gold mosaics vs oil painting technique"
+  },
+  "constructivism-revolutionary-architecture": {
+    "style_fit": 1.1,
+    "aesthetics": 8.5,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Soviet constructivism vs Italian pastoral scenes"
+  },
+  "cyberpunk-neon-rain": {
+    "style_fit": 0.3,
+    "aesthetics": 8.7,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Futuristic cyberpunk vs 19th century countryside"
+  },
+  "digital-art-quantum-garden": {
+    "style_fit": 1.9,
+    "aesthetics": 8.6,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Digital quantum aesthetics vs traditional oil painting"
+  },
+  "elementarism-dynamic-diagonals": {
+    "style_fit": 2.4,
+    "aesthetics": 8.4,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Elementarism geometric abstraction vs representational landscape"
+  },
+  "fauvism-wild-garden-at-twilight": {
+    "style_fit": 5.8,
+    "aesthetics": 9.3,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Fauvism wild colors closer but lacks Macchiaioli's structural light/shadow"
+  },
+  "futurism-velocity-symphony": {
+    "style_fit": 1.2,
+    "aesthetics": 8.9,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Futurist dynamism vs Macchiaioli static observation"
+  },
+  "german-expressionism-urban-anxiety": {
+    "style_fit": 3.1,
+    "aesthetics": 9.0,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Expressionist distortion vs Macchiaioli naturalism"
+  },
+  "jugendstil-enchanted-forest": {
+    "style_fit": 3.8,
+    "aesthetics": 9.1,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Jugendstil decorative fantasy vs Macchiaioli realist observation"
+  },
+  "kinetic-art-mechanical-symphony": {
+    "style_fit": 0.8,
+    "aesthetics": 8.2,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Kinetic sculpture vs static painting"
+  },
+  "kinetic-art-perpetual-motion": {
+    "style_fit": 0.7,
+    "aesthetics": 8.3,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Kinetic installation vs traditional oil painting"
+  },
+  "kinetic-art-temporal-cascade": {
+    "style_fit": 0.9,
+    "aesthetics": 8.4,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Kinetic art vs static landscape"
+  },
+  "land-art-spiral-desert": {
+    "style_fit": 4.5,
+    "aesthetics": 8.8,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Land art earthworks vs painted landscape - different mediums"
+  },
+  "macchiaioli-tuscan-afternoon": {
+    "style_fit": 9.6,
+    "aesthetics": 9.3,
+    "passed": true,
+    "consecutive": 1,
+    "action": "update_changelog",
+    "comment": "Excellent Macchiaioli execution, passed!"
+  },
+  "neo-geo-industrial-meditation": {
+    "style_fit": 1.6,
+    "aesthetics": 8.5,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Neo-Geo minimalism vs Macchiaioli naturalism"
+  },
+  "outsider-art-inner-cosmos": {
+    "style_fit": 2.8,
+    "aesthetics": 8.7,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Outsider art raw expression vs academic Macchiaioli technique"
+  },
+  "pointillism-sunday-by-the-river": {
+    "style_fit": 6.2,
+    "aesthetics": 9.0,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Pointillism dots vs Macchiaioli patches - similar era but different technique"
+  },
+  "pop-art-consumer-paradise": {
+    "style_fit": 0.4,
+    "aesthetics": 8.6,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Pop art commercial imagery vs Macchiaioli pastoral scenes"
+  },
+  "rococo-garden-of-enchantment": {
+    "style_fit": 4.7,
+    "aesthetics": 9.2,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Rococo ornate elegance vs Macchiaioli rustic simplicity"
+  },
+  "secessionist-eternal-embrace": {
+    "style_fit": 3.5,
+    "aesthetics": 9.1,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Secessionist symbolism vs Macchiaioli realism"
+  },
+  "situationist-international-urban-drift": {
+    "style_fit": 1.9,
+    "aesthetics": 8.4,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Situationist conceptual art vs Macchiaioli painting"
+  },
+  "songlines-of-the-eternal-dreaming": {
+    "style_fit": 3.2,
+    "aesthetics": 8.9,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Aboriginal dreamtime vs Italian countryside"
+  },
+  "steampunk-clockwork-observatory": {
+    "style_fit": 1.4,
+    "aesthetics": 8.8,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Steampunk fantasy vs Macchiaioli realism"
+  },
+  "suprematism-cosmic-architecture": {
+    "style_fit": 1.0,
+    "aesthetics": 8.7,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Suprematist geometric abstraction vs representational painting"
+  },
+  "suprematism-cosmic-ascension": {
+    "style_fit": 0.9,
+    "aesthetics": 8.6,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Suprematist pure forms vs Macchiaioli natural observation"
+  },
+  "surrealism-dreamscape-labyrinth": {
+    "style_fit": 2.6,
+    "aesthetics": 9.0,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Surrealist dream logic vs Macchiaioli direct observation"
+  },
+  "tenebrism-candlelit-contemplation": {
+    "style_fit": 7.1,
+    "aesthetics": 9.2,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Tenebrism dramatic chiaroscuro closer to Macchiaioli light/shadow but lacks outdoor naturalism"
+  },
+  "ukiyo-e-wave-of-dreams": {
+    "style_fit": 3.9,
+    "aesthetics": 9.3,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Japanese woodblock vs Italian oil painting"
+  },
+  "urban-anxiety-neo-expressionism": {
+    "style_fit": 2.7,
+    "aesthetics": 8.9,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Neo-expressionist urban angst vs Macchiaioli rural tranquility"
+  },
+  "vaporwave-digital-nostalgia": {
+    "style_fit": 0.6,
+    "aesthetics": 8.5,
+    "passed": false,
+    "consecutive": 0,
+    "action": "need_new_version",
+    "comment": "Vaporwave digital aesthetics vs 19th century painting"
+  }
+}
