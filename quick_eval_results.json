@@ -1,0 +1,346 @@
+{
+  "dominant_style": "Tonalism",
+  "statistics": {
+    "total": 48,
+    "tonalism": 2,
+    "non_tonalism": 46
+  },
+  "results": [
+    {
+      "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
+      "image": "v11-german-expressionism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-17-purism-futuristic-nostalgia",
+      "image": "v2-rayonism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-17-rayonism-light-rays",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-german-expressionism-urban-anxiety-v2",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 1,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-graffiti-art-urban-rebellion",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-neo-expressionism-fractured-identity",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-op-art-hypnotic-spiral-convergence",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-process-art-temporal-erosion",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-regionalism-heartland-harvest",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "2026-01-18-tonalism-silent-marsh-at-dusk",
+      "image": "v1-original.png",
+      "style_match": "High",
+      "consecutive_passes_before": 0,
+      "action": "Detailed evaluation needed"
+    },
+    {
+      "name": "2026-01-18-tonalism-twilight-reverie",
+      "image": "v1-original.png",
+      "style_match": "High",
+      "consecutive_passes_before": 0,
+      "action": "Detailed evaluation needed"
+    },
+    {
+      "name": "abstract-expressionism-emotional-tempest",
+      "image": "v10-aboriginal-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "algorithmic-art-fractal-consciousness",
+      "image": "v3-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "art-deco-metropolitan-elegance",
+      "image": "v8-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "art-nouveau-floral-reverie",
+      "image": "v7-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "bauhaus-geometric-harmony",
+      "image": "v7-brutalist-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "byzantine-sacred-mosaic",
+      "image": "v6-tonalism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "constructivism-revolutionary-architecture",
+      "image": "v7-metaphysical-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "cyberpunk-neon-rain",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "digital-art-quantum-garden",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "elementarism-dynamic-diagonals",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "ethereal-garden",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 1,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "fauvism-wild-garden-at-twilight",
+      "image": "v2-fauvism.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "futurism-velocity-symphony",
+      "image": "v6-brutalist-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "german-expressionism-urban-anxiety",
+      "image": "v10-neo-expressionism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "jugendstil-enchanted-forest",
+      "image": "v2-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "kinetic-art-mechanical-symphony",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "kinetic-art-perpetual-motion",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "kinetic-art-temporal-cascade",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "land-art-spiral-desert",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "macchiaioli-tuscan-afternoon",
+      "image": "v2-graffiti-art-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "metaphysical-art-philosophers-plaza",
+      "image": "v2-graffiti-art-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "neo-geo-industrial-meditation",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "outsider-art-inner-cosmos",
+      "image": "v4-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "pointillism-sunday-by-the-river",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "pop-art-consumer-paradise",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "rococo-garden-of-enchantment",
+      "image": "v6-tonalism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "secessionist-eternal-embrace",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "situationist-international-urban-drift",
+      "image": "v10-neo-expressionism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "songlines-of-the-eternal-dreaming",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "steampunk-clockwork-observatory",
+      "image": "v8-tonalism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "suprematism-cosmic-architecture",
+      "image": "v2-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "suprematism-cosmic-ascension",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "surrealism-dreamscape-labyrinth",
+      "image": "v7-metaphysical-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "tenebrism-candlelit-contemplation",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "ukiyo-e-wave-of-dreams",
+      "image": "v5-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "urban-anxiety-neo-expressionism",
+      "image": "v1-original.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    },
+    {
+      "name": "vaporwave-digital-nostalgia",
+      "image": "v6-elementarism-fusion.png",
+      "style_match": "Low",
+      "consecutive_passes_before": 0,
+      "action": "Reset to 0, generate fusion version"
+    }
+  ]
+}
