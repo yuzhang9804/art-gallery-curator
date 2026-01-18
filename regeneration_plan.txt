@@ -1,0 +1,23 @@
+新版本生成计划 - 2026-01-18
+融合风格：形而上艺术（Metaphysical Art）
+
+根据评估结果，38件作品未通过本次评估，需要生成融合形而上艺术风格的新版本。
+
+考虑到工作量和艺术价值，我将选择最有潜力融合形而上艺术风格的作品进行新版本生成：
+
+优先级1（最适合融合）：
+1. surrealism-dreamscape-labyrinth - 超现实主义与形而上艺术有历史联系，都强调梦境和心理不安
+2. constructivism-revolutionary-architecture - 建筑元素可以转化为形而上艺术的古典建筑
+3. steampunk-clockwork-observatory - 钟楼和机械元素可以融合形而上艺术的时间主题
+
+优先级2（可以融合）：
+4. german-expressionism-urban-anxiety - 焦虑主题与形而上艺术的心理不安契合
+5. futurism-velocity-symphony - 可以转化为静态的建筑空间
+6. art-deco-metropolitan-elegance - 建筑元素可以转化
+
+策略：
+- 保留原作品的核心元素（主题、构图基础）
+- 注入形而上艺术的特征：空旷广场、古典建筑、人体模型、几何物体、长阴影、大地色调
+- 创造融合而非替代，让新版本既保留原作精神又展现形而上艺术的深度
+
+由于生成大量新版本需要较长时间，我将先生成3件最有潜力的作品的新版本。
