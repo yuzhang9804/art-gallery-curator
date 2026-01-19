@@ -1,0 +1,13 @@
+Superflat Evaluation Session - 2026-01-18
+==========================================
+
+Main Style: Superflat (超扁平)
+
+Evaluation Criteria:
+- Standard A (Style Alignment): 0.0-10.0
+- Standard B (Universal Aesthetics): 0.0-10.0
+- Pass Threshold: Either standard ≥ 9.5
+
+Superflat Background:
+Superflat is a contemporary art movement and aesthetic theory proposed by Japanese artist Takashi Murakami in the late 1990s. It deeply integrates the flatness of traditional Japanese painting (ukiyo-e, screen painting) with post-war Japanese pop culture (anime, manga, video games), creating a unique "zero-perspective" artistic expression. Core characteristics include: complete elimination of three-dimensional depth, all visual elements compressed onto a single plane, no traditional Western perspective/shadow/modeling, high-saturation candy color palette, sharp crisp outlines, highly graphic and symbolic imagery. This style is both a return to Japanese traditional aesthetic "flatness" and a critical reflection on contemporary consumerism culture - wrapping deep themes of post-war trauma, nuclear threat, and consumer alienation in kawaii (cute) exteriors.
+

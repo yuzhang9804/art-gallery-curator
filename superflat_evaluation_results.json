@@ -1,0 +1,492 @@
+[
+  {
+    "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-17-purism-futuristic-nostalgia",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-17-rayonism-light-rays",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-german-expressionism-urban-anxiety-v2",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-graffiti-art-urban-rebellion",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-neo-expressionism-fractured-identity",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-op-art-hypnotic-spiral-convergence",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-process-art-temporal-erosion",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-regionalism-heartland-harvest",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-superflat-kawaii-apocalypse",
+    "score_a": 9.8,
+    "score_b": 9.2,
+    "passed": true,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 1,
+    "ready_for_perfect": false,
+    "needs_regeneration": false
+  },
+  {
+    "name": "2026-01-18-tonalism-silent-marsh-at-dusk",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "2026-01-18-tonalism-twilight-reverie",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 1,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "abstract-expressionism-emotional-tempest",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "algorithmic-art-fractal-consciousness",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "art-deco-metropolitan-elegance",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "art-nouveau-floral-reverie",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "bauhaus-geometric-harmony",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "byzantine-sacred-mosaic",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "constructivism-revolutionary-architecture",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "cyberpunk-neon-rain",
+    "score_a": 4.2,
+    "score_b": 8.3,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "digital-art-quantum-garden",
+    "score_a": 3.8,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "elementarism-dynamic-diagonals",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "ethereal-garden",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "fauvism-wild-garden-at-twilight",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "futurism-velocity-symphony",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "german-expressionism-urban-anxiety",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "jugendstil-enchanted-forest",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "kinetic-art-mechanical-symphony",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "kinetic-art-perpetual-motion",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "kinetic-art-temporal-cascade",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "land-art-spiral-desert",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "macchiaioli-tuscan-afternoon",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "metaphysical-art-philosophers-plaza",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "neo-geo-industrial-meditation",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "outsider-art-inner-cosmos",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "pointillism-sunday-by-the-river",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "pop-art-consumer-paradise",
+    "score_a": 6.5,
+    "score_b": 8.8,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "rococo-garden-of-enchantment",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "secessionist-eternal-embrace",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "situationist-international-urban-drift",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "songlines-of-the-eternal-dreaming",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "steampunk-clockwork-observatory",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "suprematism-cosmic-architecture",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "suprematism-cosmic-ascension",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "surrealism-dreamscape-labyrinth",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "tenebrism-candlelit-contemplation",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "ukiyo-e-wave-of-dreams",
+    "score_a": 5.8,
+    "score_b": 8.5,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "urban-anxiety-neo-expressionism",
+    "score_a": 1.5,
+    "score_b": 8.0,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  },
+  {
+    "name": "vaporwave-digital-nostalgia",
+    "score_a": 4.2,
+    "score_b": 8.3,
+    "passed": false,
+    "old_consecutive_passes": 0,
+    "new_consecutive_passes": 0,
+    "ready_for_perfect": false,
+    "needs_regeneration": true
+  }
+]
