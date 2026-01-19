@@ -10,8 +10,8 @@ from pathlib import Path
 from datetime import datetime
 
 # Today's dominant style
-DOMINANT_STYLE = "Neo-Expressionism"
-DOMINANT_STYLE_DESCRIPTION = "Revival of expressionist painting with raw emotional intensity, featuring aggressive brushwork, thick impasto, distorted figures, and visceral psychological expression"
+DOMINANT_STYLE = "Tachisme"
+DOMINANT_STYLE_DESCRIPTION = "European lyrical abstraction emphasizing spontaneous gestural brushwork, intuitive paint application, irregular patches and blots of color, organic forms, and material qualities of paint"
 
 # Gallery paths
 GALLERY_ROOT = Path("/home/ubuntu/art-gallery-curator/gallery")
@@ -90,28 +90,26 @@ def evaluate_artwork(artwork_dir):
     universal_aesthetics = 0.0
     
     # ===== STYLE ALIGNMENT EVALUATION =====
-    # Only Neo-Expressionism and closely related styles can score high
+    # Only Tachisme and closely related styles can score high
     
-    if 'neo-expressionism' in folder_name.lower() or 'neo-expressionism' in artwork_style:
-        # Direct Neo-Expressionism: potential for high score, but still strict
-        style_alignment = 9.2  # Base score, rarely reaches 9.5+
-    elif 'expressionism' in artwork_style or 'expressionism' in folder_name.lower():
-        # Related expressionist movements
-        if 'german' in artwork_style or 'german' in folder_name.lower():
-            style_alignment = 7.8
-        elif 'abstract' in artwork_style or 'abstract' in folder_name.lower():
-            style_alignment = 7.5
-        else:
-            style_alignment = 7.0
-    elif any(term in artwork_style or term in folder_name.lower() for term in ['graffiti', 'outsider', 'bad painting']):
-        # Raw, emotional contemporary styles
-        style_alignment = 6.5
-    elif any(term in artwork_style or term in folder_name.lower() for term in ['fauvism', 'tachisme']):
-        # Emotional color-focused styles
-        style_alignment = 5.8
+    if 'tachisme' in folder_name.lower() or 'tachisme' in artwork_style:
+        # Direct Tachisme: potential for high score, but still strict
+        style_alignment = 9.3  # Base score, rarely reaches 9.5+
+    elif 'abstract-expressionism' in folder_name.lower() or 'abstract expressionism' in artwork_style:
+        # Related gestural abstraction
+        style_alignment = 8.2
+    elif any(term in artwork_style or term in folder_name.lower() for term in ['fauvism', 'expressionism']):
+        # Emotional, gestural styles
+        style_alignment = 7.5
+    elif any(term in artwork_style or term in folder_name.lower() for term in ['art-informel', 'lyrical', 'gestural']):
+        # Related European abstraction movements
+        style_alignment = 7.8
+    elif any(term in artwork_style or term in folder_name.lower() for term in ['action painting', 'color field']):
+        # American abstraction counterparts
+        style_alignment = 6.8
     else:
         # Most other styles are fundamentally incompatible
-        style_alignment = 3.5
+        style_alignment = 3.2
     
     # ===== UNIVERSAL AESTHETICS EVALUATION =====
     # Extremely strict standards for composition, color, creativity, emotion
