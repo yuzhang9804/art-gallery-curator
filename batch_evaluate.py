@@ -1,66 +1,39 @@
 #!/usr/bin/env python3
-import os
 import json
+import random
 from pathlib import Path
 
-GALLERY_DIR = Path("/home/ubuntu/art-gallery-curator/gallery/in-progress")
-DOMINANT_STYLE = "Tonalism"
+# 读取评估列表
+with open('evaluation_list_divisionism.json', 'r', encoding='utf-8') as f:
+    artworks = json.load(f)
 
-artworks = sorted([d for d in GALLERY_DIR.iterdir() if d.is_dir()])
+# 今日风格：Divisionism
+today_style = "Divisionism"
 
-evaluation_data = []
+# 评估结果
+results = []
 
-for artwork_dir in artworks:
-    artwork_name = artwork_dir.name
+for artwork in artworks:
+    name = artwork['name']
+    consecutive_passes = artwork['consecutive_passes']
     
-    # Find the latest version image
-    images = list(artwork_dir.glob("*.png"))
-    if not images:
-        continue
-    
-    # Sort to find the latest version
-    version_images = [img for img in images if img.stem.startswith('v')]
-    if version_images:
-        # Extract version number and sort
-        def get_version_num(path):
-            try:
-                return int(path.stem.split('-')[0][1:])
-            except:
-                return 0
-        latest_image = sorted(version_images, key=get_version_num, reverse=True)[0]
-    else:
-        latest_image = images[0]
-    
-    # Read CHANGELOG to get consecutive passes
-    changelog_path = artwork_dir / "CHANGELOG.md"
-    consecutive_passes = 0
-    if changelog_path.exists():
-        content = changelog_path.read_text()
-        # Try to find consecutive passes count
-        if "连续通过次数" in content:
-            lines = content.split('\n')
-            for line in lines:
-                if "连续通过次数" in line and "/" in line:
-                    try:
-                        parts = line.split('/')
-                        num_part = parts[0].split(':')[-1].strip()
-                        consecutive_passes = int(num_part)
-                        break
-                    except:
-                        pass
-    
-    evaluation_data.append({
-        "name": artwork_name,
-        "image_path": str(latest_image),
-        "image_name": latest_image.name,
-        "consecutive_passes": consecutive_passes,
-        "changelog_exists": changelog_path.exists()
-    })
+    # 模拟评分（实际需要人工评估）
+    # 这里只是创建数据结构
+    result = {
+        "name": name,
+        "image_path": artwork['image'],
+        "previous_consecutive_passes": consecutive_passes,
+        "style_score": None,  # 待填写
+        "aesthetic_score": None,  # 待填写
+        "passed": None,  # 待判定
+        "new_consecutive_passes": None,  # 待计算
+        "action": None  # 待确定
+    }
+    results.append(result)
 
-# Save to JSON
-output_path = Path("/home/ubuntu/art-gallery-curator/artworks_to_evaluate.json")
-with open(output_path, 'w') as f:
-    json.dump(evaluation_data, f, indent=2, ensure_ascii=False)
+# 保存评估模板
+with open('evaluation_template_divisionism.json', 'w', encoding='utf-8') as f:
+    json.dump(results, f, indent=2, ensure_ascii=False)
 
-print(f"Total artworks: {len(evaluation_data)}")
-print(f"Saved to: {output_path}")
+print(f"已创建评估模板，共 {len(results)} 件作品")
+print("文件：evaluation_template_divisionism.json")
