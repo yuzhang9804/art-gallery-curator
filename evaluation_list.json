@@ -1,246 +1,181 @@
 {
-  "dominant_style": "Graffiti Art",
-  "dominant_style_desc": "Urban street art movement featuring bold spray-painted murals, wildstyle lettering, vibrant colors, and social commentary with raw rebellious energy",
+  "evaluating_style": "Fauvism",
+  "evaluating_date": "2026-01-17",
+  "total_artworks": 29,
   "artworks": [
     {
-      "name": "2026-01-17-brutalist-architecture-concrete-structure-with",
-      "style": "Brutalism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-brutalist-architecture-concrete-structure-with/v8-macchiaioli-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "2026-01-17-brutalist-architecture-concrete-structure-with",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-brutalist-architecture-concrete-structure-with",
+      "latest_version": "v9-op-art-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-brutalist-architecture-concrete-structure-with/v9-op-art-fusion.png"
     },
     {
-      "name": "2026-01-17-purism-futuristic-nostalgia",
-      "style": "Purism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-purism-futuristic-nostalgia/v2-rayonism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "abstract-expressionism-emotional-tempest",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/abstract-expressionism-emotional-tempest",
+      "latest_version": "v9-secessionist-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/abstract-expressionism-emotional-tempest/v9-secessionist-fusion.png"
     },
     {
-      "name": "2026-01-17-rayonism-light-rays",
-      "style": "Rayonism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-17-rayonism-light-rays/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "algorithmic-art-fractal-consciousness",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/algorithmic-art-fractal-consciousness",
+      "latest_version": "v3-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/algorithmic-art-fractal-consciousness/v3-elementarism-fusion.png"
     },
     {
-      "name": "2026-01-18-graffiti-art-urban-rebellion",
-      "style": "Graffiti Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/2026-01-18-graffiti-art-urban-rebellion/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "art-deco-metropolitan-elegance",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-deco-metropolitan-elegance",
+      "latest_version": "v8-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-deco-metropolitan-elegance/v8-elementarism-fusion.png"
     },
     {
-      "name": "abstract-expressionism-emotional-tempest",
-      "style": "Abstract Expressionism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/abstract-expressionism-emotional-tempest/v9-secessionist-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "art-nouveau-floral-reverie",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-nouveau-floral-reverie",
+      "latest_version": "v7-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-nouveau-floral-reverie/v7-elementarism-fusion.png"
     },
     {
-      "name": "algorithmic-art-fractal-consciousness",
-      "style": "Algorithmic Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/algorithmic-art-fractal-consciousness/v3-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "bauhaus-geometric-harmony",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/bauhaus-geometric-harmony",
+      "latest_version": "v7-brutalist-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/bauhaus-geometric-harmony/v7-brutalist-fusion.png"
     },
     {
-      "name": "art-deco-metropolitan-elegance",
-      "style": "Art Deco",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-deco-metropolitan-elegance/v8-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "byzantine-sacred-mosaic",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/byzantine-sacred-mosaic",
+      "latest_version": "v6-tonalism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/byzantine-sacred-mosaic/v6-tonalism-fusion.png"
     },
     {
-      "name": "art-nouveau-floral-reverie",
-      "style": "Art Nouveau",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/art-nouveau-floral-reverie/v7-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "constructivism-revolutionary-architecture",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/constructivism-revolutionary-architecture",
+      "latest_version": "v7-metaphysical-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/constructivism-revolutionary-architecture/v7-metaphysical-fusion.png"
     },
     {
-      "name": "bauhaus-geometric-harmony",
-      "style": "Bauhaus",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/bauhaus-geometric-harmony/v7-brutalist-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "cyberpunk-neon-rain",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/cyberpunk-neon-rain",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/cyberpunk-neon-rain/v5-elementarism-fusion.png"
     },
     {
-      "name": "byzantine-sacred-mosaic",
-      "style": "Byzantine",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/byzantine-sacred-mosaic/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "digital-art-quantum-garden",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/digital-art-quantum-garden",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/digital-art-quantum-garden/v5-elementarism-fusion.png"
     },
     {
-      "name": "constructivism-revolutionary-architecture",
-      "style": "Constructivism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/constructivism-revolutionary-architecture/v7-metaphysical-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "elementarism-dynamic-diagonals",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/elementarism-dynamic-diagonals",
+      "latest_version": "v1-original.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/elementarism-dynamic-diagonals/v1-original.png"
     },
     {
-      "name": "cyberpunk-neon-rain",
-      "style": "Cyberpunk",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/cyberpunk-neon-rain/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "fauvism-wild-garden-at-twilight",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/fauvism-wild-garden-at-twilight",
+      "latest_version": "v2-fauvism.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/fauvism-wild-garden-at-twilight/v2-fauvism.png"
     },
     {
-      "name": "digital-art-quantum-garden",
-      "style": "Digital Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/digital-art-quantum-garden/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "futurism-velocity-symphony",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/futurism-velocity-symphony",
+      "latest_version": "v6-brutalist-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/futurism-velocity-symphony/v6-brutalist-fusion.png"
     },
     {
-      "name": "elementarism-dynamic-diagonals",
-      "style": "Elementarism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/elementarism-dynamic-diagonals/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "german-expressionism-urban-anxiety",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/german-expressionism-urban-anxiety",
+      "latest_version": "v5-brutalist-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/german-expressionism-urban-anxiety/v5-brutalist-fusion.png"
     },
     {
-      "name": "fauvism-wild-garden-at-twilight",
-      "style": "Fauvism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/fauvism-wild-garden-at-twilight/v2-fauvism.png",
-      "consecutive_passes": 0
+      "artwork": "jugendstil-enchanted-forest",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/jugendstil-enchanted-forest",
+      "latest_version": "v2-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/jugendstil-enchanted-forest/v2-elementarism-fusion.png"
     },
     {
-      "name": "futurism-velocity-symphony",
-      "style": "Futurism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/futurism-velocity-symphony/v6-brutalist-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "land-art-spiral-desert",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/land-art-spiral-desert",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/land-art-spiral-desert/v5-elementarism-fusion.png"
     },
     {
-      "name": "german-expressionism-urban-anxiety",
-      "style": "German Expressionism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/german-expressionism-urban-anxiety/v5-brutalist-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "outsider-art-inner-cosmos",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/outsider-art-inner-cosmos",
+      "latest_version": "v4-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/outsider-art-inner-cosmos/v4-elementarism-fusion.png"
     },
     {
-      "name": "jugendstil-enchanted-forest",
-      "style": "Jugendstil",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/jugendstil-enchanted-forest/v2-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "pointillism-sunday-by-the-river",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/pointillism-sunday-by-the-river",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/pointillism-sunday-by-the-river/v5-elementarism-fusion.png"
     },
     {
-      "name": "kinetic-art-mechanical-symphony",
-      "style": "Kinetic Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/kinetic-art-mechanical-symphony/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "pop-art-consumer-paradise",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/pop-art-consumer-paradise",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/pop-art-consumer-paradise/v5-elementarism-fusion.png"
     },
     {
-      "name": "kinetic-art-perpetual-motion",
-      "style": "Kinetic Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/kinetic-art-perpetual-motion/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "rococo-garden-of-enchantment",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/rococo-garden-of-enchantment",
+      "latest_version": "v6-tonalism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/rococo-garden-of-enchantment/v6-tonalism-fusion.png"
     },
     {
-      "name": "kinetic-art-temporal-cascade",
-      "style": "Kinetic Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/kinetic-art-temporal-cascade/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "secessionist-eternal-embrace",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/secessionist-eternal-embrace",
+      "latest_version": "v1-original.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/secessionist-eternal-embrace/v1-original.png"
     },
     {
-      "name": "land-art-spiral-desert",
-      "style": "Land Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/land-art-spiral-desert/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "situationist-international-urban-drift",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/situationist-international-urban-drift",
+      "latest_version": "v4-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/situationist-international-urban-drift/v4-elementarism-fusion.png"
     },
     {
-      "name": "macchiaioli-tuscan-afternoon",
-      "style": "Unknown Style",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/macchiaioli-tuscan-afternoon/v1-original.png",
-      "consecutive_passes": 1
+      "artwork": "steampunk-clockwork-observatory",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/steampunk-clockwork-observatory",
+      "latest_version": "v8-tonalism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/steampunk-clockwork-observatory/v8-tonalism-fusion.png"
     },
     {
-      "name": "metaphysical-art-philosophers-plaza",
-      "style": "Unknown Style",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/metaphysical-art-philosophers-plaza/v1-original.png",
-      "consecutive_passes": 1
+      "artwork": "suprematism-cosmic-architecture",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/suprematism-cosmic-architecture",
+      "latest_version": "v2-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/suprematism-cosmic-architecture/v2-elementarism-fusion.png"
     },
     {
-      "name": "neo-geo-industrial-meditation",
-      "style": "Neo-Geo",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/neo-geo-industrial-meditation/v1-original.png",
-      "consecutive_passes": 0
+      "artwork": "suprematism-cosmic-ascension",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/suprematism-cosmic-ascension",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/suprematism-cosmic-ascension/v5-elementarism-fusion.png"
     },
     {
-      "name": "outsider-art-inner-cosmos",
-      "style": "Outsider Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/outsider-art-inner-cosmos/v4-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "surrealism-dreamscape-labyrinth",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/surrealism-dreamscape-labyrinth",
+      "latest_version": "v7-metaphysical-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/surrealism-dreamscape-labyrinth/v7-metaphysical-fusion.png"
     },
     {
-      "name": "pointillism-sunday-by-the-river",
-      "style": "Pointillism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/pointillism-sunday-by-the-river/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "tenebrism-candlelit-contemplation",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/tenebrism-candlelit-contemplation",
+      "latest_version": "v1-original.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/tenebrism-candlelit-contemplation/v1-original.png"
     },
     {
-      "name": "pop-art-consumer-paradise",
-      "style": "Pop Art",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/pop-art-consumer-paradise/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "ukiyo-e-wave-of-dreams",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/ukiyo-e-wave-of-dreams",
+      "latest_version": "v5-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/ukiyo-e-wave-of-dreams/v5-elementarism-fusion.png"
     },
     {
-      "name": "rococo-garden-of-enchantment",
-      "style": "Rococo",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/rococo-garden-of-enchantment/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "secessionist-eternal-embrace",
-      "style": "Secessionism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/secessionist-eternal-embrace/v1-original.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "situationist-international-urban-drift",
-      "style": "Situationist International",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/situationist-international-urban-drift/v4-elementarism-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "songlines-of-the-eternal-dreaming",
-      "style": "Aboriginal Songlines",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/songlines-of-the-eternal-dreaming/v1-original.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "steampunk-clockwork-observatory",
-      "style": "Steampunk",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/steampunk-clockwork-observatory/v7-metaphysical-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "suprematism-cosmic-architecture",
-      "style": "Suprematism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/suprematism-cosmic-architecture/v2-elementarism-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "suprematism-cosmic-ascension",
-      "style": "Suprematism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/suprematism-cosmic-ascension/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "surrealism-dreamscape-labyrinth",
-      "style": "Surrealism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/surrealism-dreamscape-labyrinth/v7-metaphysical-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "tenebrism-candlelit-contemplation",
-      "style": "Tenebrism",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/tenebrism-candlelit-contemplation/v1-original.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "ukiyo-e-wave-of-dreams",
-      "style": "Ukiyo-e",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/ukiyo-e-wave-of-dreams/v5-elementarism-fusion.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "urban-anxiety-neo-expressionism",
-      "style": "Unknown Style",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/urban-anxiety-neo-expressionism/v1-original.png",
-      "consecutive_passes": 0
-    },
-    {
-      "name": "vaporwave-digital-nostalgia",
-      "style": "Vaporwave",
-      "image": "/home/ubuntu/art-gallery-curator/gallery/in-progress/vaporwave-digital-nostalgia/v6-elementarism-fusion.png",
-      "consecutive_passes": 0
+      "artwork": "vaporwave-digital-nostalgia",
+      "path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/vaporwave-digital-nostalgia",
+      "latest_version": "v6-elementarism-fusion.png",
+      "full_path": "/home/ubuntu/art-gallery-curator/gallery/in-progress/vaporwave-digital-nostalgia/v6-elementarism-fusion.png"
     }
   ]
 }

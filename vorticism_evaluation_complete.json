@@ -1,0 +1,437 @@
+{
+  "evaluation_date": "2026-01-19",
+  "evaluation_style": "Vorticism",
+  "evaluator_note": "Extremely critical art connoisseur - Pass threshold: Any standard ≥ 9.5",
+  "total_artworks": 53,
+  "summary": {
+    "passed": 0,
+    "failed": 53,
+    "pass_rate": "0.0%"
+  },
+  "evaluations": [
+    {
+      "artwork": "2026-01-17-brutalist-architecture-concrete-structure-with",
+      "version": "v9-op-art-fusion.png",
+      "style_alignment": 2.5,
+      "universal_aesthetics": 8.2,
+      "passed": false,
+      "reason": "Op Art patterns dominate; lacks Vorticist angular aggression and industrial palette"
+    },
+    {
+      "artwork": "2026-01-17-purism-futuristic-nostalgia",
+      "version": "v2-rayonism-fusion.png",
+      "style_alignment": 3.8,
+      "universal_aesthetics": 7.9,
+      "passed": false,
+      "reason": "Soft Purist forms and cheerful Rayonist colors contradict Vorticism's harsh aesthetic"
+    },
+    {
+      "artwork": "2026-01-17-rayonism-light-rays",
+      "version": "v1-original.png",
+      "style_alignment": 3.2,
+      "universal_aesthetics": 8.5,
+      "passed": false,
+      "reason": "Pure Rayonism about light and atmosphere, not mechanical force"
+    },
+    {
+      "artwork": "2026-01-18-german-expressionism-urban-anxiety-v2",
+      "version": "v1-original.png",
+      "style_alignment": 4.1,
+      "universal_aesthetics": 8.3,
+      "passed": false,
+      "reason": "Expressionist emotional distortion; lacks Vorticist mechanical precision"
+    },
+    {
+      "artwork": "2026-01-18-graffiti-art-urban-rebellion",
+      "version": "v1-original.png",
+      "style_alignment": 3.5,
+      "universal_aesthetics": 7.6,
+      "passed": false,
+      "reason": "Contemporary street art aesthetic; completely wrong era and approach"
+    },
+    {
+      "artwork": "2026-01-18-neo-expressionism-fractured-identity",
+      "version": "v1-original.png",
+      "style_alignment": 4.3,
+      "universal_aesthetics": 8.1,
+      "passed": false,
+      "reason": "Expressionist fragmentation but lacks industrial machine-age focus"
+    },
+    {
+      "artwork": "2026-01-18-op-art-hypnotic-spiral-convergence",
+      "version": "v1-original.png",
+      "style_alignment": 2.8,
+      "universal_aesthetics": 8.4,
+      "passed": false,
+      "reason": "Optical illusion art; perceptual tricks not mechanical energy"
+    },
+    {
+      "artwork": "2026-01-18-process-art-temporal-erosion",
+      "version": "v1-original.png",
+      "style_alignment": 1.9,
+      "universal_aesthetics": 7.2,
+      "passed": false,
+      "reason": "Process art about time and decay; antithetical to Vorticism's machine worship"
+    },
+    {
+      "artwork": "2026-01-18-regionalism-heartland-harvest",
+      "version": "v1-original.png",
+      "style_alignment": 1.2,
+      "universal_aesthetics": 7.8,
+      "passed": false,
+      "reason": "Rural American realism; completely opposite to industrial modernism"
+    },
+    {
+      "artwork": "2026-01-18-superflat-kawaii-apocalypse",
+      "version": "v1-original.png",
+      "style_alignment": 2.1,
+      "universal_aesthetics": 8.0,
+      "passed": false,
+      "reason": "Japanese pop culture aesthetic; wrong cultural context and decorative approach"
+    },
+    {
+      "artwork": "2026-01-18-tonalism-silent-marsh-at-dusk",
+      "version": "v1-original.png",
+      "style_alignment": 0.8,
+      "universal_aesthetics": 7.9,
+      "passed": false,
+      "reason": "Atmospheric landscape painting; completely antithetical to Vorticism"
+    },
+    {
+      "artwork": "2026-01-18-tonalism-twilight-reverie",
+      "version": "v1-original.png",
+      "style_alignment": 0.9,
+      "universal_aesthetics": 8.1,
+      "passed": false,
+      "reason": "Soft atmospheric mood painting; opposite of Vorticist aggression"
+    },
+    {
+      "artwork": "2026-01-19-magic-realism-librarian-of-forgotten-dreams",
+      "version": "v1-original.png",
+      "style_alignment": 2.3,
+      "universal_aesthetics": 8.4,
+      "passed": false,
+      "reason": "Narrative surrealism; lacks mechanical and industrial elements"
+    },
+    {
+      "artwork": "2026-01-19-stuckism-the-weight-of-authenticity",
+      "version": "v1-original.png",
+      "style_alignment": 3.1,
+      "universal_aesthetics": 7.7,
+      "passed": false,
+      "reason": "Figurative painting movement; anti-conceptual stance but wrong aesthetic"
+    },
+    {
+      "artwork": "2026-01-19-tachisme-autumn-whispers",
+      "version": "v1-original.png",
+      "style_alignment": 2.6,
+      "universal_aesthetics": 7.5,
+      "passed": false,
+      "reason": "Lyrical abstraction; soft and atmospheric, not angular and mechanical"
+    },
+    {
+      "artwork": "2026-01-19-vorticism-industrial-vortex",
+      "version": "v1-original.png",
+      "style_alignment": 9.2,
+      "universal_aesthetics": 8.8,
+      "passed": false,
+      "reason": "Strong Vorticist work but central spiral too smooth; lacks raw revolutionary violence"
+    },
+    {
+      "artwork": "abstract-expressionism-emotional-tempest",
+      "version": "v9-secessionist-fusion.png",
+      "style_alignment": 3.7,
+      "universal_aesthetics": 8.3,
+      "passed": false,
+      "reason": "Emotional abstraction with decorative Secessionist elements; not mechanical"
+    },
+    {
+      "artwork": "algorithmic-art-fractal-consciousness",
+      "version": "v3-elementarism-fusion.png",
+      "style_alignment": 4.8,
+      "universal_aesthetics": 8.1,
+      "passed": false,
+      "reason": "Digital patterns interesting but lacks physical industrial materiality"
+    },
+    {
+      "artwork": "art-deco-metropolitan-elegance",
+      "version": "v8-elementarism-fusion.png",
+      "style_alignment": 4.2,
+      "universal_aesthetics": 8.6,
+      "passed": false,
+      "reason": "Art Deco elegance and luxury; too decorative for Vorticist aggression"
+    },
+    {
+      "artwork": "art-nouveau-floral-reverie",
+      "version": "v7-elementarism-fusion.png",
+      "style_alignment": 1.5,
+      "universal_aesthetics": 8.2,
+      "passed": false,
+      "reason": "Organic curves and floral motifs; complete opposite of angular Vorticism"
+    },
+    {
+      "artwork": "bauhaus-geometric-harmony",
+      "version": "v7-brutalist-fusion.png",
+      "style_alignment": 5.3,
+      "universal_aesthetics": 8.7,
+      "passed": false,
+      "reason": "Geometric but too harmonious and balanced; lacks Vorticist explosive energy"
+    },
+    {
+      "artwork": "byzantine-sacred-mosaic",
+      "version": "v6-tonalism-fusion.png",
+      "style_alignment": 1.1,
+      "universal_aesthetics": 7.8,
+      "passed": false,
+      "reason": "Religious iconography; completely wrong cultural and temporal context"
+    },
+    {
+      "artwork": "constructivism-revolutionary-architecture",
+      "version": "v7-metaphysical-fusion.png",
+      "style_alignment": 4.6,
+      "universal_aesthetics": 8.9,
+      "passed": false,
+      "reason": "Metaphysical stillness dominates; loses Constructivist revolutionary dynamism"
+    },
+    {
+      "artwork": "cyberpunk-neon-rain",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 5.1,
+      "universal_aesthetics": 8.4,
+      "passed": false,
+      "reason": "Futuristic urban dystopia but neon aesthetic too slick; lacks raw industrial grit"
+    },
+    {
+      "artwork": "digital-art-quantum-garden",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 3.9,
+      "universal_aesthetics": 8.0,
+      "passed": false,
+      "reason": "Digital abstraction with organic garden metaphor; not industrial"
+    },
+    {
+      "artwork": "elementarism-dynamic-diagonals",
+      "version": "v1-original.png",
+      "style_alignment": 6.2,
+      "universal_aesthetics": 8.3,
+      "passed": false,
+      "reason": "Strong diagonals but Elementarism's clean geometry lacks Vorticist violence"
+    },
+    {
+      "artwork": "ethereal-garden",
+      "version": "v1-original.png",
+      "style_alignment": 0.6,
+      "universal_aesthetics": 7.6,
+      "passed": false,
+      "reason": "Soft ethereal atmosphere; completely antithetical to industrial aggression"
+    },
+    {
+      "artwork": "fauvism-wild-garden-at-twilight",
+      "version": "v2-fauvism.png",
+      "style_alignment": 2.3,
+      "universal_aesthetics": 8.1,
+      "passed": false,
+      "reason": "Wild color but organic garden subject; not mechanical or industrial"
+    },
+    {
+      "artwork": "futurism-velocity-symphony",
+      "version": "v6-brutalist-fusion.png",
+      "style_alignment": 5.8,
+      "universal_aesthetics": 8.5,
+      "passed": false,
+      "reason": "Dynamic diagonals but Brutalist texture softens it; lacks concentrated vortex energy"
+    },
+    {
+      "artwork": "german-expressionism-urban-anxiety",
+      "version": "v5-brutalist-fusion.png",
+      "style_alignment": 4.7,
+      "universal_aesthetics": 8.2,
+      "passed": false,
+      "reason": "Urban anxiety theme relevant but Expressionist distortion wrong approach"
+    },
+    {
+      "artwork": "jugendstil-enchanted-forest",
+      "version": "v2-elementarism-fusion.png",
+      "style_alignment": 1.8,
+      "universal_aesthetics": 7.9,
+      "passed": false,
+      "reason": "Art Nouveau organic curves; opposite of angular industrial forms"
+    },
+    {
+      "artwork": "kinetic-art-mechanical-symphony",
+      "version": "v1-original.png",
+      "style_alignment": 6.5,
+      "universal_aesthetics": 8.4,
+      "passed": false,
+      "reason": "Mechanical elements present but too literal and decorative; lacks fragmentation"
+    },
+    {
+      "artwork": "kinetic-art-perpetual-motion",
+      "version": "v1-original.png",
+      "style_alignment": 6.3,
+      "universal_aesthetics": 8.2,
+      "passed": false,
+      "reason": "Motion concept relevant but execution too clean and scientific"
+    },
+    {
+      "artwork": "kinetic-art-temporal-cascade",
+      "version": "v1-original.png",
+      "style_alignment": 5.9,
+      "universal_aesthetics": 8.0,
+      "passed": false,
+      "reason": "Temporal flow interesting but lacks aggressive angular fragmentation"
+    },
+    {
+      "artwork": "land-art-spiral-desert",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 2.8,
+      "universal_aesthetics": 7.7,
+      "passed": false,
+      "reason": "Natural landscape spiral; organic not mechanical"
+    },
+    {
+      "artwork": "macchiaioli-tuscan-afternoon",
+      "version": "v2-graffiti-art-fusion.png",
+      "style_alignment": 2.1,
+      "universal_aesthetics": 7.4,
+      "passed": false,
+      "reason": "Italian landscape painting with graffiti; neither approach fits Vorticism"
+    },
+    {
+      "artwork": "metaphysical-art-philosophers-plaza",
+      "version": "v2-graffiti-art-fusion.png",
+      "style_alignment": 3.4,
+      "universal_aesthetics": 8.1,
+      "passed": false,
+      "reason": "Metaphysical stillness and contemplation; opposite of dynamic energy"
+    },
+    {
+      "artwork": "neo-geo-industrial-meditation",
+      "version": "v1-original.png",
+      "style_alignment": 5.7,
+      "universal_aesthetics": 8.3,
+      "passed": false,
+      "reason": "Industrial theme but 'meditation' implies calm; lacks explosive force"
+    },
+    {
+      "artwork": "outsider-art-inner-cosmos",
+      "version": "v4-elementarism-fusion.png",
+      "style_alignment": 3.2,
+      "universal_aesthetics": 7.8,
+      "passed": false,
+      "reason": "Intuitive personal vision; lacks industrial machine-age focus"
+    },
+    {
+      "artwork": "pointillism-sunday-by-the-river",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 1.4,
+      "universal_aesthetics": 7.9,
+      "passed": false,
+      "reason": "Impressionist leisure scene; completely wrong subject and technique"
+    },
+    {
+      "artwork": "pop-art-consumer-paradise",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 3.6,
+      "universal_aesthetics": 8.2,
+      "passed": false,
+      "reason": "Consumer culture critique but too colorful and ironic for Vorticism"
+    },
+    {
+      "artwork": "rococo-garden-of-enchantment",
+      "version": "v6-tonalism-fusion.png",
+      "style_alignment": 0.7,
+      "universal_aesthetics": 7.5,
+      "passed": false,
+      "reason": "Decorative aristocratic elegance; complete opposite of industrial modernism"
+    },
+    {
+      "artwork": "secessionist-eternal-embrace",
+      "version": "v1-original.png",
+      "style_alignment": 2.9,
+      "universal_aesthetics": 8.4,
+      "passed": false,
+      "reason": "Decorative symbolism and organic forms; not angular or mechanical"
+    },
+    {
+      "artwork": "situationist-international-urban-drift",
+      "version": "v4-elementarism-fusion.png",
+      "style_alignment": 4.1,
+      "universal_aesthetics": 7.9,
+      "passed": false,
+      "reason": "Urban exploration concept but lacks concentrated mechanical energy"
+    },
+    {
+      "artwork": "songlines-of-the-eternal-dreaming",
+      "version": "v1-original.png",
+      "style_alignment": 1.3,
+      "universal_aesthetics": 7.7,
+      "passed": false,
+      "reason": "Indigenous spiritual narrative; completely different cultural context"
+    },
+    {
+      "artwork": "steampunk-clockwork-observatory",
+      "version": "v8-tonalism-fusion.png",
+      "style_alignment": 5.4,
+      "universal_aesthetics": 8.3,
+      "passed": false,
+      "reason": "Victorian mechanical aesthetic but too nostalgic and decorative"
+    },
+    {
+      "artwork": "suprematism-cosmic-architecture",
+      "version": "v2-elementarism-fusion.png",
+      "style_alignment": 6.8,
+      "universal_aesthetics": 8.6,
+      "passed": false,
+      "reason": "Strong geometric abstraction but too balanced and cosmic; lacks industrial grit"
+    },
+    {
+      "artwork": "suprematism-cosmic-ascension",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 6.4,
+      "universal_aesthetics": 8.4,
+      "passed": false,
+      "reason": "Geometric dynamism present but spiritual ascension theme wrong for Vorticism"
+    },
+    {
+      "artwork": "surrealism-dreamscape-labyrinth",
+      "version": "v7-metaphysical-fusion.png",
+      "style_alignment": 2.7,
+      "universal_aesthetics": 8.5,
+      "passed": false,
+      "reason": "Dream logic and psychological symbolism; not industrial or mechanical"
+    },
+    {
+      "artwork": "tenebrism-candlelit-contemplation",
+      "version": "v1-original.png",
+      "style_alignment": 1.0,
+      "universal_aesthetics": 8.0,
+      "passed": false,
+      "reason": "Baroque dramatic lighting; completely wrong era and approach"
+    },
+    {
+      "artwork": "ukiyo-e-wave-of-dreams",
+      "version": "v5-elementarism-fusion.png",
+      "style_alignment": 2.4,
+      "universal_aesthetics": 8.3,
+      "passed": false,
+      "reason": "Japanese woodblock print aesthetic; wrong cultural context"
+    },
+    {
+      "artwork": "urban-anxiety-neo-expressionism",
+      "version": "v1-original.png",
+      "style_alignment": 4.5,
+      "universal_aesthetics": 8.1,
+      "passed": false,
+      "reason": "Urban anxiety relevant but Expressionist approach lacks mechanical precision"
+    },
+    {
+      "artwork": "vaporwave-digital-nostalgia",
+      "version": "v6-elementarism-fusion.png",
+      "style_alignment": 3.8,
+      "universal_aesthetics": 7.8,
+      "passed": false,
+      "reason": "Digital nostalgia aesthetic; too ironic and pastel for Vorticism"
+    }
+  ]
+}
